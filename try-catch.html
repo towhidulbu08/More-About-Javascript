@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Catch</title>
+    <style>
+        #container{
+            /* max-width: 1240px; */
+            margin:200px auto;
+            display: flex;
+            justify-content: center;
+        }
+        #error{
+            color:red;
+        }
+        #age{
+            width:80%
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div>
+            <h1>Create custom error using Try and Catch</h1>
+            <div>
+                <input type="text" id="age" placeholder="Enter age between 18-30">
+                <button type="submit" onclick="checkAge()">submit</button>
+                <p id="error"></p>
+            </div>
+        </div>
+    </section>
+    <script src="try-catch.js"></script>
+</body>
+</html>
